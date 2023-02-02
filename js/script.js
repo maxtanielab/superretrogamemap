@@ -506,7 +506,7 @@ $.when(counties).done(function () {
 			feature.properties.isActived === 1
 				? layer.bindPopup(
 						`<div class="pink-color"><h3>${nom}</h3><p style="margin-top: -15px; font-size: 1.1em;">${
-							shops <= 1 ? `${shops} Distributeur` : `${shops} Distributeurssss`
+							shops <= 1 ? `${shops} Distributeur` : `${shops} Distributeurs`
 						}</div>`,
 						{
 							closeButton: false,
